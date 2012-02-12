@@ -1,3 +1,6 @@
+# New app to learn json, jquery and misc javascript
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
