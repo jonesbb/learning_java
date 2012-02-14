@@ -1,0 +1,4 @@
+# file to enable isotope functionality on server side
+#   http://devign.me/isotope-hybrid-ruby-on-rails-template-engine-for-client-side-and-server-side/
+include_scripts:
+    - /public/javascripts/isotope_functions.js

@@ -1,0 +1,28 @@
+
+/* main */
+html, #main, #head { background: #f7f9fb; color: #777; }
+#main { border: none; background-color: #f7f9fb; }
+
+/* foot */
+#foot { border-top: dotted 1px #aaa; color: #777; }
+#foot strong { color: Black; }
+
+#foot-contact label.textarea, #onpage-contact label.textarea { background-color: white; border: dotted 1px #aaa; }
+textarea, input { color: #444 !important; }
+
+/* links */
+#brief a, #content a, #foot a { color: #f95; }
+
+/* menu */
+#topmenu li.search input { border: none; }
+#topmenu ul li:hover a { color: #444; }
+#topmenu ul li.active a { background-color: White; color: #444; padding: 0px 10px; margin: 0px; }
+
+#mainmenu ul li a { color: #ccc; }
+
+/* content */
+code { background-color: #fbfbfb; color: #999; }
+p span.dropcap.alt { background-color: #777; }
+
+/* portfolio */
+#content.portfolio.V .entry span { background-color: white; /* firefox opacity bugfix */ }

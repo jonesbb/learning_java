@@ -1,2 +1,19 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+  </head>
+  <body>
+    <a href="http://jquery.com/">jQuery</a>
+    <%= link_to "Contact", contact_path %>
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("a").click(function(event){
+        alert("Thanks for visiting!");
+        });
+      });
+    </script>
+  </body>
+</html>
